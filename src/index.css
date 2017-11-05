@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fefefd;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    animation-duration: 2s;
+    font-size: 5em;
+    animation-delay: 0.3s;
+}
+
+#main-content {
+    position: relative;
+    text-align: center;
+}
+
+article {
+    padding-top: 5%;
+    animation-delay: 0.8s;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+}
+
+.colors_object {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#history_table {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#scans {
+    float:left;
+}
+
+#match {
+    float:right;
+}
+
+.color-palette {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 40em;
+    list-style-type: none;
+}
+
+.color-palette li {
+    width: 20%;
+    height: 10em;
+}
+
+.NearestColorForm {
+    position: absolut;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+/* De kleuren horen niet uitgebreid te zijn. Vandaar dat ik het even op 1 regel zet om het script niet duizenden regels te maken. */
+#blue {color: blue;}
+#maple {color: #552f36;}
+#orange {color: orange;}
+#grenadine {color:#cc4d42;}
+#green{color:green;}
+#spruce{color:#283b5a;}
+
+footer {
+    // position: absolute;
+    // bottom: 5px;
+    font-size: 10px;
+} 
